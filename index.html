@@ -16,13 +16,29 @@
         <a href="http://127.0.0.1:3000/about.html"><li>About</li></a>
         
       </ul>
-      <button id="account_button">Login</button>
+      <button id="loginButton">Login</button>
     </nav>
   </header>
   <main>
     <div class="body">
       <br><br><br><br><br>
       <font size="123px" id="head1"><h1>Tic Tac Toe</h1></font>
+    </div>
+    <div id="loginPopup" class="popup">
+      <div class="popup-content">
+        <span class="close" id="closePopup">&times;</span>
+        <h2>Login Form</h2>
+        <!-- Your login form content goes here -->
+        <form>
+      <label for="username"><p>Username:</p></label>
+          <input type="text" id="username" name="username" required>
+      <br><br>
+          <label for="email"><p>Email:</p></label>
+          <input type="email" id="email" name="password" required>
+      <br><br>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </div>
     <div class="body-extra">
       <br><br><br><br><br>
@@ -31,7 +47,7 @@
           <h1>Tic Tac Tactician</h1>
           <br>
           <p>"Unleash your strategic prowess in the classic game of Tic Tac Toe! 'Tic Tac Tactician' is your playground for mastering the art of this timeless challenge. From beginner basics to advanced maneuvers, embrace the thrill of outsmarting your opponent. Play, learn, conquer become the ultimate Tactician!"</p>
-          <br>
+          <br><br><br><br>
         </div>
         <div class="card2">
           <h1>X O pro</h1>
@@ -47,7 +63,7 @@
         </div>
       </div>
     </div>
-  </main>
-  
+
+    <script src="script.js"></script>
 </body>
 </html>
